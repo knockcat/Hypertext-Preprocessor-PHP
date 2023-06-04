@@ -47,4 +47,6 @@ foreach ($arr as $val) {
     echo "$val ";
 }
 
+echo "<br>";
+
 ?>
