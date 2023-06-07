@@ -15,8 +15,7 @@ else
 
 // Creating table in php
 
-$sql = "CREATE TABLE `first`.`test` (`S.No` INT NOT NULL AUTO_INCREMENT , `Name` INT(12) NOT NULL , `Role` INT(12) NOT NULL , `DateOfJoining` DATETIME NOT NULL , PRIMARY KEY (`S.No`)) ;
-";
+$sql = "CREATE TABLE `first`.`one` (`S.No` INT NOT NULL AUTO_INCREMENT , `Name` VARCHAR(12) NOT NULL , `Role` VARCHAR(12) NOT NULL , `DateOfJoining` DATETIME NOT NULL , PRIMARY KEY (`S.No`)) ENGINE = InnoDB;";
 
 $result = mysqli_query($conn, $sql);
 
